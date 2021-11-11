@@ -1,0 +1,409 @@
+<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			body{
+				background:red;
+			}
+			#mainarea{
+				width:1200px;
+				height:1500px;
+				background:blue;
+
+			}
+
+			#toparea{
+				width:1200px;
+				height:150px;
+				background:green;
+
+
+			}
+			#logoarea{
+				width:150px;
+				height:150px;
+				background:pink;
+				float:left;
+			}
+			#logoarea img{
+				width:120px;
+				height:120px;
+				margin:15px;
+
+
+				}
+			#titlearea{
+				width:1050px;
+				height:150px;
+				background:green;
+				float:left;
+			}
+			
+
+				
+			
+			#menuarea{
+				width:1200px;
+				height:40px;
+				background:yellow;
+				
+				
+					
+
+
+			}
+			#menuarea ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+			#menuarea ul li{
+				float:left;
+				}
+		
+			#menuarea ul li a:link,#menuarea ul li a:visited{
+					color:red;
+					background:yellow;
+					text-decoration:none;
+					padding:10px 25px;
+					display:block;
+					border-right:solid 1px #000;
+			
+			}
+			#menuarea ul li a:hover{
+					color:yellow;
+					background:red;
+					
+			}
+			#menuarea ul li ul{
+				display:none;
+
+			}
+			#menuarea ul li:hover ul{
+				display:block;
+				position:absolute;
+				z-index:100;
+			}
+			#menuarea ul li:hover ul li{
+					float:none;
+				}
+				#menuarea ul li:hover ul li a:link,
+				#menuarea ul li:hover ul li a:visited{
+					border-right:none;
+					border-bottom:solid 1px pink;
+				}	
+				
+			#slidearea{
+				width:1200px;
+				height:300px;
+				background:blue;
+				/*background-image:repeating-linear-gradient(red 0%,yellow 20% );*/
+				/*background-image:radial-gradient(circle,red 0%,yellow 20%,green 100%);*/
+				background-image:repeating-radial-gradient(circle,red 0%,yellow 20%);	
+			}
+			#slidearea h1{
+					color:red;
+				}
+			#slidearea p{
+					color:yellow;
+					font-weight:bold;
+					font-family:arial;
+					font-style:oblique;
+					text-transform:capitalize;
+					text-align:center;
+					text-decoration:underline;
+					text-indent:50px;
+					letter-spacing:0;
+					word-spacing:0px;
+					line-height:100px;
+					
+
+			}
+			
+
+			
+			#boxarea{
+				width:1200px;
+				height:300px;
+				background:pink;
+				
+
+
+			}
+				#b1{
+				width:100px;
+				height:0px;
+				background:none;
+				float:left;
+				margin:50px;
+				/*
+				border-top:solid 50px blue;*/
+				border-right:solid 50px transparent;
+				border-bottom:solid 50px green;
+				border-left:solid 50px transparent;
+			}
+				
+				#b2{
+				width:300px;
+				height:200px;
+				background:red;
+				float:left;
+				margin:50px;
+			}	
+
+				
+				#b3{
+				width:300px;
+				height:200px;
+				background:blue;
+				float:left;
+				margin:50px;
+			}
+
+
+				
+			
+			#darea{
+				width:1200px;
+				height:300px;
+				background:brown;
+			}
+			#d1area{
+				width:400px;
+				height:300px;
+				background:yellow;
+				float:left;
+
+
+			}
+			#d1area a:link,#d1area a:visited{
+					color:red;
+					text-decoration:none;
+					background:black;
+					padding:10px 20px;
+					border-radius:5px;
+				}
+				#d1area a:hover{
+					background:red;
+					color:blue;
+				}
+			#d2area{
+				width:400px;
+				height:300px;
+				background:black;
+				float:left;
+
+			}
+			#d3area{
+				width:400px;
+				height:300px;
+				background:blue;
+				float:left;
+
+			}
+			#footerarea{
+				width:1200px;
+				height:410px;
+				background:purple;
+			}
+			#f1area{
+				width:300px;
+				height:410px;
+				background:green;
+				float:left;
+				
+
+			}
+				#f1area ul{
+					/*
+					list-style-type:none;
+					list-style-image:url('arr.jpg');
+					list-style-position:inside;*/
+					list-style:disc url('arr.jpg') inside;
+				
+					
+				}
+				
+
+
+			#f2area{
+				width:300px;
+				height:410px;
+				background:orange;
+				float:left;
+			}
+				#f2area ul{
+					list-style-type:circle;
+					margin:0;
+					padding:0;
+					
+				}
+			#f3area{
+				width:300px;
+				height:410px;
+				background:brown;
+				float:left;
+			}
+			#f3area a:link{
+				color:red;
+				
+
+			}
+			#f3area a:visited{
+				color:green;
+				
+
+			}
+			#f3area a:hover{
+				color:black;
+				
+
+			}
+			#f3area a:active{
+				color:yellow;
+				
+
+			}
+			#f4area{
+				width:300px;
+				height:410px;
+				background:white;
+				float:left;
+
+			}
+			#f4area ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+		
+			#f4area ul li a:link,#f4area ul li a:visited{
+					color:red;
+					background:yellow;
+					text-decoration:none;
+					padding:10px 25px;
+					display:block;
+					border-bottom:solid 1px #000;
+			
+			}
+			#f4area ul li a:hover{
+					color:yellow;
+					background:red;
+					
+			}	
+				
+
+			
+							
+				
+				
+		</style>
+	</head>	
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+				<div id="logoarea">
+				<img src="k.jpg"/>
+				</div>
+				<div id="titlearea">
+				</div>
+			</div>
+			<div id="menuarea">
+				<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">contact</a></li>
+						<li><a href="#">Products</a>
+							<ul>
+								
+								<li><a href="#">products1</a></li>
+								<li><a href="#">products2</a></li>
+								<li><a href="#">products3</a></li>
+								<li><a href="#">products4</a></li>
+							</ul>
+						</li>
+						
+						
+						
+
+					</ul>
+					
+					
+			</div>
+			<div id="slidearea">
+				<h1>gpk</h1>
+				<p>government polytechnic kharsawan</p>
+				
+			</div>
+			<div id="boxarea">
+				<div id="s1">
+				</div>
+					<div id="b1">
+					</div>
+					<div id="b2">
+					</div>
+					<div id="b3">
+					</div>
+					
+					
+				
+			</div>
+			<div id="darea">
+				<div id="d1area">
+					<ul><a href="http://www.google.com">google</a>
+				</ul>
+				</div>
+				<div id="d2area">
+				</div>
+				<div id="d3area">
+				</div>
+			</div>
+			<div id="footerarea">
+				<div id="f1area">
+					<ul>
+						<li>Home</li>
+						<li>About</li>
+						<li>Gallery</li>
+						<li>contact</li>
+
+					</ul>
+				</div>
+				<div id="f2area">
+					<ul>
+						<li>Home</li>
+						<li>About</li>
+						<li>Gallery</li>
+						<li>contact</li>
+
+					</ul>
+				</div>
+				<div id="f3area">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">contact</a></li>
+
+					</ul>
+				</div>
+				<div id="f4area">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">contact</a></li>
+
+					</ul>
+					
+				</div>
+			</div>
+			
+		</div>
+	</body>
+
+
+
+
+
+</html>
